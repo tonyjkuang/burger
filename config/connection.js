@@ -11,9 +11,9 @@ if (process.env.JAWSDB_URL) {
 	// DB is local on localhost
 	connection = mysql.createConnection({
 		host: 'localhost',
-		user: 'root',
-		password: 'hacktheplanet',
-		database: 'todoagain_db'
+		user: 'tonythetiger',
+		password: '',
+		database: 'burgers_db'
 	})
 };
 
